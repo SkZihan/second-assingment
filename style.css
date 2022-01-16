@@ -217,3 +217,46 @@ footer{
     border-radius: 5px;
 }
 /* Footer-part finish */
+/* Responsive-part */
+@media screen and (max-width: 992px) {
+    .first-part{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .start-journey{
+        width: 90%;
+    }
+    .right-image{
+        
+        width: 90%;
+        margin-top: 30px;
+        justify-content: center;
+        
+    }
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fourth-part{
+        flex-direction: column;
+    }
+    .app-image{
+        width: 100%;
+    }
+    .application{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    
+    .application{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 688px){
+    .product-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
