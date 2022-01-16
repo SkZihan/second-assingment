@@ -217,3 +217,35 @@ footer{
     border-radius: 5px;
 }
 /* Footer-part finish */
+
+@media screen and (max-width:688px){
+    .banner-left h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .feature-logos{
+
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .products{
+        grid-template-columns: 1fr;
+    }
+
+    #app-store .container h2{
+        font-size: 30px;
+        margin: 10px 0 30px 0;
+    }
+    .app-image img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:365px){
+    .app-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
