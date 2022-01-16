@@ -163,3 +163,52 @@ nav{
 .more-button:hover .fa-arrow-right{
     transform: translateX(5px);
 }
+/* Third-part finish */
+/* Fourth-part start */
+.fourth-part{
+    display: flex;
+}
+.app-image{
+    width: 50%;
+}
+.app-image img{
+    width: 100%;
+}
+.application{
+    padding-left: 80px;
+}
+.application h3{
+    font-size: 35px;
+    color: rgb(146, 14, 14);
+}
+.application h1{
+    font-size: 50px;
+    color: rgb(184, 49, 0);
+    padding-top: 5px;
+}
+.app-buttons{
+    padding-top: 20px;
+}
+/* Forth-part finish */
+/* Fotter start */
+footer{
+    background-color: rgb(10, 10, 97);
+    text-align: center;
+    padding-top: 20px;
+}
+.footer-container h3{
+    color:antiquewhite ;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.footer-container p{
+    font-size: 14px;
+    color: rgba(255, 228, 196, 0.849);
+}
+.footer-logo{
+    font-size: 30px;
+    padding-top: 10px;
+    color: azure;
+    border-radius: 5px;
+}
+/* Footer-part finish */
