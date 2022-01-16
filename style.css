@@ -16,7 +16,7 @@ section{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 20px 10px;
+    padding: 50px 20px 0px;
 }
 nav{
     display: flex;
@@ -28,15 +28,16 @@ nav{
 }
 .navigation li{
     list-style: none;
+    font-weight: 600;
 }
 .navigation li a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     padding-left: 40px;
     transition: .3s ease-in-out;
 }
 .navigation li a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(131, 0, 65);
 }
 #menu, label{
     display: none;
@@ -45,6 +46,7 @@ nav{
 /* First-part start */
 .first-part{
     display: flex;
+    padding-bottom: 0px;
 }
 .right-image{
     width: 40%;
@@ -62,6 +64,7 @@ nav{
 }
 .start-journey p{
     font-size: 15px;
+    font-weight: 500;
     padding-bottom: 40px;
     padding-top: 20px;
 }
@@ -83,3 +86,80 @@ nav{
     transform: translateX(10px);
 }
 /* First-part finish */
+/* Second-part start */
+.second-part{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.brands{
+    padding: 20px;
+    border-top: 1px solid rgba(255, 253, 253, 0.479);
+    border-bottom: 1px solid rgba(255, 251, 251, 0.438);
+}
+.brands img{
+    padding-left: 60px;
+}
+/* Second-part finish */
+/* Third-part start */
+.third-part{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.collection{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* Products-part start */
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-bottom: 20px;
+}
+.item{
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: white;
+}
+.item img{
+    width: 100%;
+    padding: 15px 10px;
+}
+.item h2{
+    padding-left: 10px;
+}
+.price{
+    font-size: 25px;
+    padding: 10px;
+}
+.ratting{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.fa-star{
+    font-size: 14px;
+    color: orange;
+}
+.ratting span{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.item p{
+    padding-left: 10px;
+}
+/* Products-part finish */
+.more-button{
+    text-align: right;
+    text-decoration: none;
+    color: rgb(88, 0, 34);
+    display: block;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.more-button:hover .fa-arrow-right{
+    transform: translateX(5px);
+}
